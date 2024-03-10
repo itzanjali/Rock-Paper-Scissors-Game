@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <title>Rock paper scissor</title>
+    <link rel="stylesheet" href="./rocl.css">
+</head>
+<body>
+    
+    <section id="header">
+    <h1>Rock Paper Scissors Game</h1>
+</section>
+      <section id="scoresection">
+    <p>Win: <span id="winspan">0</span>&nbsp;
+    Lose: <span id="losespan">0</span>&nbsp;
+    Tie: <span id="tiespan">0</span>
+        <button onclick="reset()">Reset score!</button>
+  </p></section>
+<section id="playsection">
+    <button onclick="playGame('Rock')"><i class="fa fa-hand-rock-o" aria-hidden="true"></i>Rock</button>
+    <button onclick="playGame('Paper')"><i class="fa fa-hand-paper-o" aria-hidden="true"></i>Paper</button>
+    <button onclick="playGame('Scissors')"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i>Scissors</button>
+</section>   
+    <section id="resultsection">
+        <h2>You Choose:<span id="playerh1"></span></h2>
+        <h2>Computer Chooses:<span id="computerh1"></span></h2>
+        <h2>Result : <span id="resulttext"></span></h2>
+    </section>
+    <script src="./rock.js"></script>
+</body>
+</html>

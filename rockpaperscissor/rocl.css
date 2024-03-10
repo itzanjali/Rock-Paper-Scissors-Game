@@ -1,0 +1,74 @@
+body {
+    background-color: #1e1e1e; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 50px;
+}
+
+#header h1 {
+    font-size: 3em;
+    color: #ea4c41; /* Red text color */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#scoresection {
+    margin-top: 50px;
+}
+
+#scoresection p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#scoresection p button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 2px solid #ea4c41; /* Red border */
+    background-color: transparent;
+    color: #ea4c41; /* Red text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#scoresection p button:hover {
+    background-color: #ea4c41; /* Red background color on hover */
+    color: #fff; /* White text color on hover */
+}
+
+#playsection {
+    margin-top: 50px;
+}
+
+#playsection button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    background-color: #ea4c41; /* Red button */
+    transition: transform 0.3s ease;
+}
+
+#playsection button:hover {
+    transform: scale(1.1); /* Increase button size on hover */
+}
+
+#playsection button i {
+    font-size: 5em;
+    color: #fff; /* White icon color */
+}
+
+#resultsection h2 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#resultsection h2 span {
+    color: #ea4c41; /* Red color for result */
+    font-weight: bold;
+}
